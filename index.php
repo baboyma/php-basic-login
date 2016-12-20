@@ -41,7 +41,7 @@
 			// Valid users and their passwords
 			$users = array(
 				"user1" => "password1",
-				"user2" => "password1"
+				"user2" => "password2"
 			);
 
 			// Check if session is valid
@@ -59,7 +59,7 @@
 
 					exit();
 				}
-			} 
+			}
 			else {
 
 				$auth = false;
